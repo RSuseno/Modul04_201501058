@@ -1,0 +1,50 @@
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Dasar JavaScript</title>
+
+</head>
+<body>
+<h1>Dasar JavaScript</h1>
+
+<p>
+<span id="content"></span>
+</p1>
+
+<script>
+
+var tinggi = 165; 
+var usia = 10;
+var tinggiteman = 170;
+var usiateman = 11;
+usia = prompt('Berapa umur Joni');
+tinggi = prompt('Berapa tinggi badan Joni')
+usiateman = prompt('Berapa umur teman Joni');
+tinggiteman = prompt("Berapa tinggi badan teman Joni");
+var ANGKA = 5;
+ console.log("Tinggi badan Joni adalah",tinggi,"cm") ;
+ console.log("Joni berusia",usia);
+ console.log("Tinggi badan teman Joni adalah",tinggiteman,"cm");
+ console.log("teman Joni berusia",usiateman);
+
+console.log("permainan dimulai...")
+
+
+console.log("Score Joni adalah",tinggi*usia+ANGKA) ;
+console.log("Score TEMAN Joni adalah",tinggiteman*usiateman+ANGKA) ;
+
+var scorejoni = (tinggi*usia+ANGKA);
+var scoretmn =  (tinggiteman*usiateman+ANGKA);
+
+ if (scorejoni > scoretmn) {
+        console.log('Joni menang');
+  }
+    else if  (scoretmn > scorejoni) {
+        console.log('teman joni menang');
+    }
+
+
+</script>
+</body>
+</html>
